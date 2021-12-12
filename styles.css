@@ -122,8 +122,12 @@ header{
     margin-left: 1em;
 }
 
-.logo img{
-    margin-right: 0.7em;
+.logo-img{
+    color: var(--clr-dark);
+    margin-right: 0.75em;
+}
+.logo-img:hover{
+    color: var(--clr-accent);
 }
 
 @media (max-width:300px) {
